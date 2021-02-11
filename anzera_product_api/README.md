@@ -75,25 +75,37 @@ Requests List and parameters:
 
 Register: http://127.0.0.1:8000/api/user/register
           post parameters: name, email, pass, repass
+          
 GetToken: http://127.0.0.1:8000/api/user/get_token
           post parameters: email, password
+          
 CategoryGetAll: http://127.0.0.1:8000/api/category/all
           post parameters: token
+          
 ProductGetAll: http://127.0.0.1:8000/api/product/all	  
-          post parameters: token	      	  
+          post parameters: token	   
+          
 CategoryAdd: http://127.0.0.1:8000/api/category/add		  
           post parameters: cat_name, parent, status, token	
+          
 ProductAdd: http://127.0.0.1:8000/api/product/add	  
           post parameters: name, price, category, token		
+          
 CategoryUpdate: http://127.0.0.1:8000/api/category/update		  
           post parameters: cat_name, parent, status, token, id	
+          
 ProductUpdate: http://127.0.0.1:8000/api/product/update		  
           post parameters: name, price, category, token, id	
+          
 CategoryShow: http://127.0.0.1:8000/api/category/show		  
           post parameters: id, token
+          
 ProductShow: http://127.0.0.1:8000/api/product/show	  
           post parameters: id, token
+          
 CategoryDelete: http://127.0.0.1:8000/api/category/delete		  
           post parameters: id, token
+          
 ProductDelete: http://127.0.0.1:8000/api/product/delete			  
-          post parameters: id, token		  			  
+          post parameters: id, token		  			
+          
