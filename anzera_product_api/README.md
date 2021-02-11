@@ -64,6 +64,9 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Project Installation
 
+PHP version : 7.3.2
+Laravel version: 8.27.0
+
 Command Line: php artisan serve
 
 Working url for api:http://127.0.0.1:8000/api
